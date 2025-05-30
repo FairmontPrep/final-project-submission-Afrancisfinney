@@ -12,7 +12,7 @@ public class Client {
         {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
     };
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         ArrayList<String> path = findPath(inputMaze);
         System.out.println(path);
         printPath(inputMaze, path);
